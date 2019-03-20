@@ -1,0 +1,114 @@
+
+
+@font-face {
+    font-family: 'michromaregular';
+    src: url('../media/michroma-webfont.woff2') format('woff2'),
+         url('../media/michroma-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Arial';
+}
+
+.mainborder {
+    border: 6px;
+    border-style: double;
+    color: rgb(10, 10, 235);
+    overflow: hidden;
+    background-color: rgb(0, 0, 30);
+}
+
+.wrapper {
+
+    width: 960px;
+    margin: 0px auto;
+
+    overflow: hidden;
+}
+
+
+/* SECTIONS: */
+
+header .title {
+    padding: 6px 0px 10px 8px;
+}
+
+
+.navigation {
+    padding: 15px;
+}
+
+.navborder {
+    border: 6px;
+    border-style: double;
+    color: rgb(10, 10, 235);
+    background-color: rgb(0, 0, 30);
+}
+
+.navigation a {
+    padding: 20px;
+    color: rgb(255, 255, 255)
+}
+
+.logo {
+    height: 280px;
+    background-image: url('../media/landscape.png');
+    background-size: cover;
+}
+
+
+main {
+    /* display: inline-block; */
+    padding: 20px;
+    width: 70%;
+    float: left;
+    color: rgb(221, 221, 221);
+}
+
+aside {
+    /* display: inline-block; */
+    padding: 15px;
+    margin: 20px;
+    width: 20%;
+    float: right;
+    background-color: rgb(23, 33, 167);
+    color: rgb(221, 221, 221);
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+    font-family: 'michromaregular';
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    /* text-decoration: none; */
+}
+
+a, :visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    font-family: 'michromaregular';
+}
+
+
+footer, .logo, .navborder, .mainborder {
+    margin: 4px;
+}
+
+
+footer {
+    color: rgb(102, 102, 102);
+    margin: 6px;
+}
+
+
+
+
